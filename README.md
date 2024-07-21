@@ -10,7 +10,7 @@
 5. Now down all the files from my GitHub in your folder(chatbot) and save them.
 6. Run  the command "pip install -r requirements.txt" in your terminal. To download all the 
    requirements.
-7. Finally, run the command "streamlit run app.py".
+7. Finally, run the command "streamlit run app.py". (app.py is the name of Python file)
    It will open the Streamlit app  in the browser with the localhost URL.
 
 Note: I have provided my API keys of the platform providing open source model in the .env file.
