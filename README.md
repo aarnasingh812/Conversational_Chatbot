@@ -12,3 +12,5 @@
    requirements.
 7. Finally, run the command "streamlit run app.py".
    It will open the Streamlit app  in the browser with the localhost URL.
+
+Note: I have provided my API keys of the platform providing open source model in the .env file.
