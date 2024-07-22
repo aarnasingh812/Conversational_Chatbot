@@ -24,6 +24,14 @@ In case you got API key error you can create your own api key and use it in plac
 6. Copy the API key and paste into the .env file in front of the variable name GROQ_API_KEY.
 
 # To create google API key
+1. Go to "https://aistudio.google.com/app/apikey"
+2. Signin or signUp with your mail id (if required).
+3. Dialog box will open. Click on 'Get API key'.
+4. Then Click on 'Create API key'.
+5. Again dialog box will pop up. Click on 'Create API key in new project'.
+6. Your API key will be generated.
+7. Copy the API key and paste into the .env file in front of the variable name GOOGLE_API_KEY.
+
 
 
 
