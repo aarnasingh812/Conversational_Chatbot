@@ -3,7 +3,7 @@
 2. Open the 'chatbot' folder with VS Code.
 3. Open the terminal in VS Code and select the Command Prompt.
 4. Create and activate a Python virtual environment with the following commands:
-   >To create the environment: "python -m venv myEnv"
+   >To create the environment: "python -m venv myEnv"   and  
    >To activate the environment: "myEnv\Scripts\activate"
 5. With the virtual environment activated, run all subsequent commands in the same terminal.
 6. Download all the files from your GitHub repository into the 'chatbot' folder.
