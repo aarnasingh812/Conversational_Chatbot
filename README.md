@@ -13,4 +13,18 @@
 9. Finally, run the command "streamlit run app.py". (app.py is the name of Python file)
    It will open the Streamlit app  in the browser with the localhost URL.
 
-Note: I have provided my API keys of the platform providing open source model in the .env file.
+Note: I have provided my API keys in the .env file.                                                                                                                                                                    
+In case you got API key error you can create your own api key and use it in place of mine in the .env file.
+# To create groq API key
+1. Go to "https://console.groq.com/playground"
+2. SignUp or Login with you email id.
+3. In the right side select model name 'Llama3-8b-8192'.
+4. Then in the left side click on API keys.
+5. Next click on the button 'create api key'. Now enter the name of the key and your API key is generated.
+6. Copy the API key and paste into the .env file in front of the variable name GROQ_API_KEY.
+
+# To create google API key
+
+
+
+
