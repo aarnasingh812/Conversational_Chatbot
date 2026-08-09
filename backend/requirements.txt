@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+faiss-cpu
+groq
+langchain-groq
+langchain
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-google-genai
+pypdf
+python-dotenv
+google-genai
