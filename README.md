@@ -6,26 +6,18 @@ All generative answers are backed by semantic search citations, showing the exac
 
 ## 🖥️ User Interface Preview
 
-| 1. Welcome Screen (No Document Loaded) | 2. Chat & Source Citations |
-| :---: | :---: |
-| ![Welcome Screen](Conversational_Chatbot/assets/welcome_screen.png) | ![Chat Session](Conversational_Chatbot/assets/chat_screen_1.png) |
+### 1. Welcome Screen (No Document Loaded)
+<img src="assets/welcome_screen.png" width="100%" alt="DocChat AI Welcome Screen" />
 
-| 3. Continuous Conversational Flow |
-| :---: |
-| ![Chat History](Conversational_Chatbot/assets/chat_screen_2.png) |
+### 2. Chat & Source Citations
+<img src="assets/chat_screen_1.png" width="100%" alt="DocChat AI Chat & Citations" />
+
+### 3. Continuous Conversational Flow
+<img src="assets/chat_screen_2.png" width="100%" alt="DocChat AI Conversational Flow" />
 
 ---
 
 ## 🚀 Key Features
-
-### 💻 Frontend (React + Vite)
-- **Drag-and-Drop Upload**: Easily drag a PDF onto the sidebar or click to upload.
-- **Dynamic Session Statistics**: Instantly view the processed document's name, total pages, and generated text chunks.
-- **Glassmorphism Theme**: Clean, modern dark-mode inspired UI design with premium typography, smooth hover states, and micro-animations.
-- **Rich Markdown Formatting**: Assistant answers support bolding, lists, and tables rendered via `react-markdown` and `remark-gfm`.
-- **Interactive Citations Accordion**: Click to inspect the specific document chunks and source pages (e.g., `Page 3`) used by the LLM.
-- **Performance Timing**: Real-time response speed tracker (e.g., `⚡ 0.85s response time`).
-- **One-Click Reset**: Seamlessly delete the session on both frontend and backend to upload a new document.
 
 ### ⚙️ Backend (FastAPI + LangChain)
 - **FastAPI Framework**: High-performance, asynchronous REST API endpoints.
@@ -33,6 +25,14 @@ All generative answers are backed by semantic search citations, showing the exac
 - **FAISS Vector Store**: Uses Facebook AI Similarity Search (FAISS) in-memory vector storage for ultra-fast, local similarity calculations.
 - **Groq LLM Integration**: Leverages ChatGroq's high-speed inference engine for natural, context-grounded responses.
 - **State Isolation**: In-memory session tracking utilizing UUIDs to ensure distinct chat histories and document contexts per upload.
+
+### 💻 Frontend (React + Vite)
+- **Drag-and-Drop Upload**: Easily drag a PDF onto the sidebar or click to upload.
+- **Dynamic Session Statistics**: Instantly view the processed document's name, total pages, and generated text chunks.
+- **Rich Markdown Formatting**: Assistant answers support bolding, lists, and tables rendered via `react-markdown` and `remark-gfm`.
+- **Interactive Citations Accordion**: Click to inspect the specific document chunks and source pages (e.g., `Page 3`) used by the LLM.
+- **Performance Timing**: Real-time response speed tracker (e.g., `⚡ 0.85s response time`).
+- **One-Click Reset**: Seamlessly delete the session on both frontend and backend to upload a new document.
 
 ---
 
