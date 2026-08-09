@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/.env
+.env
+env/
+venv/
+*.egg-info/
+
+# FAISS / model cache
+*.faiss
+*.pkl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
