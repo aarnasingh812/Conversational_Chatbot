@@ -1,4 +1,4 @@
-# DocChat AI — Conversational PDF Chatbot
+# DocChat AI — Custom PDF Chatbot
 
 DocChat AI is an intelligent, full-stack, RAG (Retrieval-Augmented Generation) document assistant. It allows users to upload a PDF, automatically process and index its contents, and have a conversational chat with the document. 
 
